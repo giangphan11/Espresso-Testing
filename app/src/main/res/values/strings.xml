@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestingDemo</string>
+
+    <string name="main_title">Main Screen</string>
+    <string name="login_title">Login Screen</string>
+    <string name="cal_title">Calculator Screen</string>
+    <string name="login_success_title">Login Success</string>
+
+    <string name="go_to_login">Go to Login Screen</string>
+    <string name="go_to_cal">Go to Cal Screen</string>
+</resources>

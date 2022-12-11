@@ -15,8 +15,8 @@ class CalculatorActivity : AppCompatActivity() {
 
         with(binding){
             btnSum.setOnClickListener {
-                val sumA = etNumA.text.toString().trim().toInt()
-                val sumB = etNumB.text.toString().trim().toInt()
+                val sumA = etNumA.text.toString().trim().toIntOrNull() ?:0
+                val sumB = etNumB.text.toString().trim().toIntOrNull() ?:0
                 tvResult.text = String.format("%d", (sumA+sumB))
             }
         }

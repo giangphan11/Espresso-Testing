@@ -12,7 +12,6 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         with(binding) {
             binding.btnActionLogin.setOnClickListener {
                 tvLoginSuccess.visibility = View.GONE
